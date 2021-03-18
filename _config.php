@@ -34,11 +34,18 @@ $conn->query("SET lc_time_names = 'pt_BR'");
 
 /* Inicializa variáveis do tema */
 $T = array(
-    'siteName' => 'Tilojo',
-    'siteSlogan' => 'Com os pés no chão',
+    'siteName' => 'Eminent',
+    'siteSlogan' => 'vista-se',
+    'fullSiteName' => 'A Eminent',
     'siteLogo' => '/img/logo02.png',
+    'favIcon' => '/img/logo02.png',
     'pageTitle' => '',
     'pageCSS' => '',
     'pageJS' => '',
+    'social' => array(
+        'facebook' => 'https://facebook.com/tilojo',
+        'youtube' => 'https://youtube.com/tilojo',
+        'twitter' => 'https://twitter.com/tilojo',
+        'instagram' => 'https://instagram.com/eminent.oficial'
+    )
 );
-
